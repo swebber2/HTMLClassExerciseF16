@@ -76,10 +76,31 @@ footer {
   padding-bottom: 20px;
 }
 
- 
+ nav{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+nav a{
+   display: block;
+   padding: 50px; 
+}
+
+/*nav:last-of-type{
+ // clear: float;
+ // float: left;
+ // width: 20%;
+//}
+
 
 nav{
-  clear: float;
-  float: left;
-  width: 20%;
+    float: left;
 }
+
+nav a{
+   display: block;
+   padding: 50px; 
+}
+*/
