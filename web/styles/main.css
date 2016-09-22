@@ -75,18 +75,48 @@ footer {
   background: linear-gradient(45deg,black,orange 75%, white);
   padding-bottom: 20px;
 }
-
- nav{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    float: left;
+div{
+    background: black; 
+    margin-top: 0px; 
+    margin: 0; 
 }
+ 
 
-nav a{
-   display: block;
-   padding: 50px; 
-}
+    li a{
+        margin: 0;
+        list-style: none; 
+        width: 8em;
+        font-size: 1em;
+        text-decoration: none;
+    }
+    nav li a{
+      display: block; 
+      
+      background: orange; 
+      color: black;
+      line-height: 2em;
+      padding: .2em 0 .2em 1em; 
+      border: .125em solid black;
+    }
+    
+    nav li a:hover{
+      background-color: brown;  
+    }
+    div li{
+        display: inline-block; 
+    }
+    
+    div li a{
+      display: block; 
+      background: black; 
+      color: white;
+      line-height: 2em;
+      padding: 0 ; 
+      
+    }
+    div li a:hover{
+        color: orange; 
+    }
 
 /*nav:last-of-type{
  // clear: float;
