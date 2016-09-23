@@ -1,8 +1,14 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 23, 2016, 2:34:54 PM
+    Author     : swebber2
+*/
 
 
-
-
- 
 
 html {
   font-family: Arial, sans-serif;
@@ -75,13 +81,13 @@ footer {
   background: linear-gradient(45deg,black,orange 75%, white);
   padding-bottom: 20px;
 }
-#navbar{
+div{
     background: black; 
     margin-top: 0px; 
     margin: 0; 
 }
  
-#navbar ul{
+div ul{
     margin: 0;
     padding: 0;
   
@@ -95,11 +101,11 @@ footer {
         
     }
     
-    #sidebar ul{
+    nav ul{
         list-style: none;
     }
     
-    #sidebar li a{
+    nav li a{
       display: block; 
       font-weight: bold;
       background: orange; 
@@ -109,16 +115,16 @@ footer {
       border: .125em solid black;
     }
     
-    #sidebar li a:hover{
+    nav li a:hover{
       background-color: brown;  
     }
-    #navbar li{
+    div li{
         display: inline-block; 
         width: 18%;
         text-align: center;
     }
     
-    #navbar li a{
+    div li a{
       display: block; 
       background: black; 
       color: white;
@@ -126,6 +132,18 @@ footer {
       padding: 0 ; 
       
     }
+    #sidebar{
+        float: right;
+    }
+    
+    #sidebar image{
+        size: 10px;
+    }
+    
+    figure{
+        float: right;
+    }
+    
     div li a:hover{
         color: orange; 
     }
