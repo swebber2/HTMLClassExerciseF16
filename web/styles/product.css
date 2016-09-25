@@ -9,7 +9,6 @@ and open the template in the editor.
 */
 
 
-
 html {
   font-family: Arial, sans-serif;
   background-image: url(../images/bats.gif);
@@ -51,7 +50,8 @@ h5{
 }
 
 a{
-  color: orange;
+  color: black;
+  
 }
 
 li{
@@ -133,19 +133,49 @@ div ul{
       
     }
     #sidebar{
-        float: right;
+      float: right;
+      width: 180px;
+      display: block; 
+      font-weight: bold;
+      background: #F5DEB3; 
+      color: black;
+      line-height: 2em;
+      padding: .2em 0 .2em 1em; 
+      
+    }
+    
+    #sidebar ul{
+       list-style: none
     }
     
     #sidebar image{
         size: 10px;
+        float: left;
     }
     
     figure{
-        float: right;
+      float: left;
+      width: 20%;
+      position: absolute;
+      margin-left: 15%;
+    }
+    figure image{
+        position: absolute;
+        width: 100%;
+    }
+    
+    figure figcaption{
+        position: absolute;
+        top: 200px;
+        
     }
     
     div li a:hover{
         color: orange; 
+    }
+    #picText{
+        float: right;
+        width: 80%;
     }
 
 /*nav:last-of-type{
