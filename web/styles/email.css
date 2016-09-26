@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 26, 2016, 10:13:57 AM
+    Author     : swebber2
+*/
+
+
+html {
+  font-family: Arial, sans-serif;
+  background-image: url(../images/bats.gif);
+}
+
+
+body {
+  background-color: white;
+  margin: 0 auto;
+  width: 800px;
+  border: 2px solid black; 
+}
+
+header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background: linear-gradient(45deg,white,orange 75%, black);
+  border-bottom-style: solid; 
+}
+
+header img {
+  float: left; 
+}
+
+h1{ 
+  text-indent: 50px ;  
+}
+
+h2{
+  text-indent: 50px; 
+}
+
+h4::first-letter{
+  font-size: 200% 
+}
+
+h5{
+  font-size: 125%
+}
+
+#form{
+        color: orange;
+    }
+    
+ 
+a{
+  color: black;
+  
+}
+
+li{
+  padding: 5px
+}
+
+a:hover{
+  color: green;
+}
+
+main {
+  float: right;
+  width: 100%;
+}
+
+article {
+  float: right;
+  width: 75%;
+}
+
+footer {
+  border-top: 2px solid black;
+  clear: both;
+  width: 100%;
+  text-align: center;
+  font-size: 10px;
+  background: linear-gradient(45deg,black,orange 75%, white);
+  padding-bottom: 20px;
+}
+div{
+    background: black; 
+    margin-top: 0px; 
+    margin: 0; 
+}
+ 
+div ul{
+    margin: 0;
+    padding: 0;
+  
+}
+    li a{
+        margin: 0;
+        list-style: none; 
+        width: 8em;
+        font-size: 1em;
+        text-decoration: none;
+        
+    }
+    
+    nav ul{
+        list-style: none;
+    }
+    
+    nav li a{
+      display: block; 
+      font-weight: bold;
+      background: orange; 
+      color: black;
+      line-height: 2em;
+      padding: .2em 0 .2em 1em; 
+      border: .125em solid black;
+    }
+    
+    nav li a:hover{
+      background-color: brown;  
+    }
+    div li{
+        display: inline-block; 
+        width: 18%;
+        text-align: center;
+    }
+    
+    div li a{
+      display: block; 
+      background: black; 
+      color: white;
+      line-height: 2em;
+      padding: 0 ; 
+      
+    }
+
+  
+ 
+    
+    div li a:hover{
+        color: orange; 
+    }
+
+    table{
+        float: right;
+        margin-right: 250px;
+        
+    }
+    #form{
+        color: orange;
+    }
+    
+    
