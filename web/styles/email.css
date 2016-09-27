@@ -49,9 +49,7 @@ h5{
   font-size: 125%
 }
 
-#form{
-        color: orange;
-    }
+
     
  
 a{
@@ -138,7 +136,9 @@ div ul{
       
     }
 
-  
+    #form1{
+        color: orange;
+    }
  
     
     div li a:hover{
@@ -150,8 +150,16 @@ div ul{
         margin-right: 250px;
         
     }
-    #form{
-        color: orange;
+    section{
+        margin-right: 100px;
+        float: right;
     }
     
+    form p label{
+        width: 80%;
+    }
     
+   form p{
+      text-align: right;
+      margin-right: 250px; 
+    }
