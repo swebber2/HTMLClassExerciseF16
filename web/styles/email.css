@@ -163,3 +163,13 @@ div ul{
       text-align: right;
       margin-right: 250px; 
     }
+    
+    #button{
+       background-color: orange; 
+       border: .125em solid black;
+       background-color: orange;
+       border: .125em solid black;
+       width: 60%;
+       height: 25px;
+       font-size: 15px;
+    }

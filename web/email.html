@@ -39,8 +39,8 @@ and open the template in the editor.
             <p><label>First Name:</label><input id="text1" name="Text1" type="search" required autofocus /></p>
             <p><label>Last Name :</label><input name="Text1" type="search" required /></p>
             <p><label>Email     :</label><input name="Email1" type="email" required="" /></p>
-            <p><label>Zip Code  :</label><input name="Text1" type="search" /></p>
-            <p> <input name ="subscrib1"  type ="submit" value = "Subscribe" /></p>
+            <p><label>Zip Code  :</label><input name="Text1" type="search" pattern = "^\d{5}$" placeholder ="Zip Code" /></p>
+            <p> <input id ="button" name ="subscrib1"  type ="submit" value = "Subscribe" /></p>
           </form>
          
       </section> 
