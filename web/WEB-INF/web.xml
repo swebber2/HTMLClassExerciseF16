@@ -9,4 +9,26 @@
             30
         </session-timeout>
     </session-config>
+    
+    
+    <servlet>
+        <servlet-name>HalloweenServlet</servlet-name>
+        <servlet-class>HalloweenServlet</servlet-class>
+        <init-param>
+            <param-name>relativePathToFile</param-name>
+            <param-value>/WEB-INF/html.txt</param-value>
+        </init-param>        
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>HalloweenServlet</servlet-name>
+        <url-pattern>/goElon</url-pattern>
+    </servlet-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>index.html</welcome-file>
+        
+    </welcome-file-list>
+    
+    
 </web-app>
